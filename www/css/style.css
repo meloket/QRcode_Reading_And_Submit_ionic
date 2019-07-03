@@ -1,0 +1,34 @@
+/* Empty. Add your own CSS if you like */
+
+.div_logo{
+    text-align: center;
+}
+
+.div_qrcode, .div_message{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: beige;
+    width: 100%;
+    white-space: pre-wrap;
+    overflow-y: scroll;
+}
+
+.div_button{
+}
+
+.qrp{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.qrp-top{
+    margin-top: 20px;
+}
+
+.div_select{
+    padding: 0px;
+}
+
+.form-group{
+    padding: 20px;
+}

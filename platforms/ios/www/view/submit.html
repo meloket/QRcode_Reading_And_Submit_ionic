@@ -1,0 +1,31 @@
+<ion-view>
+    <ion-content>
+        
+        <div class="form-group">
+            <div class="qrp div_logo">
+                <img src="../img/logo.png">
+                    </div>
+            
+            <textarea class="qrp div_qrcode item" placeholder="QRcode Data" rows="8" readonly>{{subtext}}</textarea>
+            
+            <div class="div_select">
+                <label class="item item-input item-select">
+                    <div class="input-label">Select CSR</div>
+                    <select ng-model="$parent.csrdata">
+                        <option value="Cindy">Cindy</option>
+                        <option value="Maria">Maria</option>
+                        <option value="Jorge">Jorge</option>
+                        <option value="Melina">Melina</option>
+                        <option value="Shaun">Shaun</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div class="qrp-top input-label">Message</div>
+            <textarea class="div_message item" placeholder="Additional Message" rows="8" ng-model="$parent.addtext"></textarea>
+            
+            <button class="div_button button item button-block button-assertive" ng-click="SubmitF()">Submit</button>
+        </div>
+        
+    </ion-content>
+</ion-view>

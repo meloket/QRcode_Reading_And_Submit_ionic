@@ -1,0 +1,4 @@
+#Wed Jun 26 16:19:46 CST 2019
+base.0=E\:\\Dev\\QRcodeSubmitPro\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
